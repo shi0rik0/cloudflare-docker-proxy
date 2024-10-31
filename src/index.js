@@ -6,7 +6,8 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
-  'cloudflare-docker-proxy.anguuan.workers.dev': dockerHub
+  'cloudflare-docker-proxy.anguuan.workers.dev': dockerHub,
+  'dockerhubmirror.online': dockerHub,
 };
 
 function routeByHosts(host) {
